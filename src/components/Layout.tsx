@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div className="rounded-lg bg-primary/10 p-1.5">
               <TrendingUp className="h-4 w-4 text-primary" />
             </div>
-            <span className="font-display font-bold text-sm tracking-tight">Portfolio VC</span>
+            <span className="font-display font-bold text-sm tracking-tight">Innovation Hub/span>
           </div>
         </div>
 

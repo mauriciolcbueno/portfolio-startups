@@ -12,6 +12,8 @@ export interface Startup {
   // Campos preenchidos pela análise de IA
   healthJustification?: string
   healthUpdatedAt?: string
+    equityPercentage?: number
+    investmentThesis?: string
 }
 
 export interface Metrics {
@@ -42,4 +44,6 @@ export interface StartupFormData {
   status: StartupStatus
   logoUrl?: string
   contactEmail: string
+    equityPercentage?: number
+    investmentThesis?: string
 }

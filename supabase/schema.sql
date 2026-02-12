@@ -12,6 +12,8 @@ create table if not exists startups (
   status text not null default 'healthy' check (status in ('healthy','attention','critical')),
   logo_url text,
   contact_email text not null default '',
+  equity_percentage numeric default 0,
+  investment_thesis text default '',
   created_at timestamptz not null default now()
 );
 
